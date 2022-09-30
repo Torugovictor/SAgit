@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== BOX ICONS ===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="teste.css">
+
+  <title>Associação de resistores(Paralelo)</title>
+
+</head>
+<link rel="stylesheet" href="paralelo.css" />
+
+<body style="background-image: url(paralelo.png);">
+
+  <div id="conteudo">
+
+    <h1>Situação de Aprendizagem</h1>
+
+    <body id="body-pd">
+      <header class="header" id="header">
+        <div class="header__toggle">
+          <i class='bx bx-menu' id="header-toggle"></i>
+        </div>
+
+        <div class="header__img">
+          <img src="assets/img/perfil.jpg" alt="">
+        </div>
+      </header>
+
+      <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+          <div>
+            <a href="../pagina inicial/index.html" class="nav__logo">
+              <i class='bx bx-layer nav__logo-icon'></i>
+              <span class="nav__logo-name">Página inicial</span>
+            </a>
+
+            <div class="nav__list">
+              <a href="../associacao/associacao.html" class="nav__link active">
+                <i class='bx bx-grid-alt nav__icon'></i>
+                <span class="nav__name">Associação de<br> resistores(série)</span>
+              </a>
+
+              <a href="../dimensionamento/dimensionamento.html" class="nav__link">
+                <i class='bx bx-grid-alt nav__icon'></i>
+                <span class="nav__name">Dimensionamento de<br> resistores</span>
+              </a>
+
+              <a href="../identificação/identificacao.html" class="nav__link">
+                <i class='bx bx-grid-alt nav__icon'></i>
+                <span class="nav__name">Identificação de<br> resistores</span>
+              </a>
+
+
+
+            </div>
+          </div>
+
+
+          </a>
+        </nav>
+      </div>
+
+      <center>
+        <h2>Associação de Resistores (paralelo)
+      </center>
+      </h2>
+      <center>
+        <form>
+          <p>
+            Numero 1:
+            <input type="number" id="num1" placeholder="digite o numero 1">
+
+          </p>
+          <p>
+            Numero 2:
+            <input type="number" id="num2" placeholder="digite o numero 2">
+          </p>
+          <input type="button" id="somar" value="calcular">
+
+
+          </p>
+
+        </form>
+        <h3>
+          <div class="div1"></div>
+          <div id="div2"></div>
+        </h3>
+      </center>
+      <script src="paralelo.js"></script>
+    </body>
+
+
+
+
+</html>
